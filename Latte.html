@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<link rel="stylesheet" href="css1.css">
+<title>Latte</title>
+</head>
+<style> 
+ p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: cadetblue;
+        font-size: 40px;
+    }
+    h1{
+        font-style: oblique;
+        color: bisque;
+        font-size: 70px;
+        text-align: center;
+    }
+    h2{
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        text-align: left;
+    }
+
+</style>
+<body>
+
+
+    <nav>
+        <ul>
+       <li>
+       <a href="coffe.html">Home</a>
+        </li>         <li>
+                <a href="#Interdaction">Interdaction</a>
+       </li>
+         <li> 
+             <a href="#img">IMG Latte</a>
+         </li>
+       <li>
+        <a href="#how">How to make it</a>
+         </li>
+         <li>
+               <a href="#contact">ContactUs</a>
+           </li>
+        <li>
+       <a href="Us.html">Us</a>
+     </li>
+   </ul>
+
+
+<h1 >Latte</h1>
+<p id="Interdaction" style="font-style: italic; color: cadetblue;" >Interdaction about Latte</p>
+<h2>
+    Thirdly, it is one of the classic drinks loved in cafes all over the world. Its flawless brew and creamy flavor make it a popular choice for coffee lovers. As is common, many people do not know what famous coffee is; The origin of this drink and the difference between it and cappuccino.
+     Read on for more interesting information about this beloved drink.
+     It is served with a soft layer of foam, which makes it similar to a cappuccino, but there are clear differences such as the amount of milk, water and coffee combined. Together these ingredients form a café with milk,
+      which is perfectly balanced and homogeneous and an irresistible combination.
+   
+</h2>
+<p>why latte is important?</p>
+
+<h2>In conclusion, latte art is important for a variety of reasons. It adds an aesthetic element to coffee, serves as a quality assurance tool, indicates temperature control, allows for personalization, and showcases the skill and artistry of baristas</h2>
+
+<p id="img" >Click the button to create Latte img.</p>
+<button onclick="myFunction()">Click Me </button>
+
+<script>
+function myFunction() {
+  var x = document.createElement("IMG");
+  x.setAttribute("src", "Latte_art_3.jpg");
+  x.setAttribute("width", "304");
+  x.setAttribute("height", "299");
+  x.setAttribute("alt", "The Pulpit Rock");
+  document.body.appendChild(x);
+}
+</script>
+<figcaption>Now here video can help you to make a latte Coffe :</figcaption>
+<iframe id="how" class ="center_1" src="makeLatte.mp4"></iframe>
+
+<h5 id="contact"> Contact Us </h5>
+    <form action="/action_page.php">
+
+        <label for="email">Enter your email:</label>
+    
+        <input type="email" id="email" name="email" placeholder="AnyThing@Examble.com">
+        
+        <input type="submit" value="Submit">
+      </form>
+      <form>
+        <label>Enter your phone nomber:</label>
+        <input type="tel" placeholder="05XXXXXXXX" pattern="[0]{1}[0-9]{9}">
+        <input type="button" value="Submit">
+
+
+      </form>
+
+</body>
+</html>

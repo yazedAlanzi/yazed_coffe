@@ -1,0 +1,138 @@
+
+h1{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 100px;
+}
+figure{
+    figure {
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 10px;
+        margin-right: 100px;
+      }
+}
+figcaption{
+   
+    color: rgb(255, 255, 255);
+    font-style: inherit;
+    font-size: 65px;
+}
+
+   
+
+cap{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 1em;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+
+p {
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 30px;
+
+
+}
+body{
+    background-color: grey;
+}
+.center {
+    display: block;
+   margin-left: auto;
+    margin-right: auto;
+    width : 350px;
+    height: 300px;
+
+  }
+  .paddingo{
+    padding-left: 37px;
+    font-size: large;
+    bottom: -17px;
+    position: relative;
+    
+}
+div{
+    margin: 80px;
+
+    
+}
+h2{
+    text-align: center;
+    color: burlywood;
+    font-style: italic;
+    font-size: 100px;
+}
+ 
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+h5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+.email{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    color: aliceblue;
+    text-align: center; 
+
+}
+.contact{
+   
+    color: aliceblue;
+    text-align: center; 
+}
+
+nav{
+   background-color: darkgrey;
+}
+ul {
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+ 
+li {
+    float: left;
+}
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  ul.a {
+    list-style-type: circle;
+
+  }
+  .center_1{
+    display: block;
+    margin-left: 100px;
+  
+     width : 350px;
+     height: 300px;
+ 
+  }
+  
+ 
